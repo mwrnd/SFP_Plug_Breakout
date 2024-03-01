@@ -1,4 +1,4 @@
-**Work-in-Progress** - [First Revision gerbers ready](https://github.com/mwrnd/SFP_Plug_Breakout/releases/tag/v0.1-alpha).
+**Work-in-Progress** - [First Revision gerbers ready](https://github.com/mwrnd/SFP_Plug_Breakout/releases/tag/v0.1-alpha). Not yet ordered or tested.
 
 
 

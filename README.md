@@ -39,6 +39,7 @@ I have been testing with general purpose capacitors for the RX and TX DC-Blockin
 | R10, R11, R12   | RNCF0603DTE10K0     |        3 | 10k-Ohm | Resistor_SMD:R_0603_1608Metric   | [DigiKey](https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCF0603DTE10K0/1708145) |
 | J6              | PH2-12-UA           |        1 | N/A     | Conn_02x06                       | [DigiKey](https://www.digikey.ca/en/products/detail/adam-tech/PH2-12-UA/9830397)                       |
 | J2, J3, J4, J5  | CONUFL001-SMD-T     |        4 | N/A     | U.FL_w_Label:U.FL_Hirose_w_Label | [DigiKey](https://www.digikey.ca/en/products/detail/te-connectivity-linx/CONUFL001-SMD-T/7427732)      |
+| U.FL-to-U.FL    | 2015698-2           |        2 | N/A     | None - Optional Part for Testing | [DigiKey](https://www.digikey.ca/en/products/detail/te-connectivity-amp-connectors/2015698-2/1249186)  |
 
 
 

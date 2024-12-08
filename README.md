@@ -25,6 +25,8 @@ Differential pair parameters were calculated based on a **board thickness of 1.0
 
 ![SFP Plug Module Breakout Schematic](img/SFP_Plug_Module_Breakout_Schematic.png)
 
+The 0.1" Header is designed to accept jumpers for the **TX_FAULT**, **RX_LOSS**, **TX_DISABLE**, and optionally **Rate-Select** signals. **TX_FAULT**, **RX_LOSS**, and **TX_DISABLE** jumpers need to be mounted for normal operation.
+
 
 
 
@@ -39,6 +41,7 @@ I have been testing with general purpose capacitors for the RX and TX DC-Blockin
 | R10, R11, R12   | RNCF0603DTE10K0     |        3 | 10k-Ohm | Resistor_SMD:R_0603_1608Metric   | [DigiKey](https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCF0603DTE10K0/1708145) |
 | J6              | PH2-12-UA           |        1 | N/A     | Conn_02x06                       | [DigiKey](https://www.digikey.ca/en/products/detail/adam-tech/PH2-12-UA/9830397)                       |
 | J2, J3, J4, J5  | CONUFL001-SMD-T     |        4 | N/A     | U.FL_w_Label:U.FL_Hirose_w_Label | [DigiKey](https://www.digikey.ca/en/products/detail/te-connectivity-linx/CONUFL001-SMD-T/7427732)      |
+| None            | QPC02SXGN-RC        |        4 | N/A     | 1x2 0.1" Jumper                  | [DigiKey](https://www.digikey.ca/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262)  |
 | U.FL-to-U.FL    | 2015698-2           |        2 | N/A     | None - Optional Part for Testing | [DigiKey](https://www.digikey.ca/en/products/detail/te-connectivity-amp-connectors/2015698-2/1249186)  |
 
 

@@ -1,4 +1,4 @@
-**Work-in-Progress** - [First Revision gerbers ready](https://github.com/mwrnd/SFP_Plug_Breakout/releases/tag/v0.1-alpha). Not yet ordered or tested.
+**Work-in-Progress** - [First Revision gerbers being tested](https://github.com/mwrnd/SFP_Plug_Breakout/releases/tag/v0.1-alpha).
 
 
 
@@ -25,6 +25,20 @@ Differential pair parameters were calculated based on a **board thickness of 1.0
 
 ![SFP Plug Module Breakout Schematic](img/SFP_Plug_Module_Breakout_Schematic.png)
 
+
+
+
+## Bill Of Materials
+
+I have been testing with general purpose capacitors for the RX and TX DC-Blocking capacitors (C1, C2, C3, C4) but at <10Gbps bitrates. Capacitors will need to be sized smaller, 0402 or even 0201, and more effort would need to go into their selection for high bitrates. Look for [capacitors designed for high-frequency](https://www.digikey.ca/en/products/detail/passive-plus/0402BB104KW500/19186629).
+
+| Designator(s)   | Part Number         | Quantity | Value   | Footprint                        | Availability                                                                                           |
+| --------------- | ------------------- | -------- | ------- | -------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| C1, C2, C3, C4  | GRM1885C1H103JA01D  |        4 | 0.01uF  | Capacitor_SMD:C_0603_1608Metric  | [DigiKey](https://www.digikey.ca/en/products/detail/murata-electronics/GRM1885C1H103JA01D/4421555)     |
+| R1, R2, R3      | RMCF0603ZT0R00      |        3 | 0-Ohm   | Resistor_SMD:R_0603_1608Metric   | [DigiKey](https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0603ZT0R00/1756908)  |
+| R10, R11, R12   | RNCF0603DTE10K0     |        3 | 10k-Ohm | Resistor_SMD:R_0603_1608Metric   | [DigiKey](https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCF0603DTE10K0/1708145) |
+| J6              | PH2-12-UA           |        1 | N/A     | Conn_02x06                       | [DigiKey](https://www.digikey.ca/en/products/detail/adam-tech/PH2-12-UA/9830397)                       |
+| J2, J3, J4, J5  | CONUFL001-SMD-T     |        4 | N/A     | U.FL_w_Label:U.FL_Hirose_w_Label | [DigiKey](https://www.digikey.ca/en/products/detail/te-connectivity-linx/CONUFL001-SMD-T/7427732)      |
 
 
 

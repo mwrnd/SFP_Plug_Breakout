@@ -9,6 +9,12 @@ Pluggable [SFP (SFF INF-8074i)](https://members.snia.org/document/dl/26184) and 
 
 Similar Projects: [SFP-Breakout-Board](https://github.com/aewallin/SFP-Breakout-Board/tree/df46707f1ecbe9b7fed1791247dec31a45b60560), [SFP_BreakoutBoard](https://github.com/kingyoPiyo/SFP_BreakoutBoard), [SFP-Loopback-Board](https://github.com/aewallin/SFP-Loopback-Board), and [Sfp-breakout](https://osmocom.org/projects/misc-hardware/wiki/Sfp-breakout)(*osmocom.org*).
 
+![SFP Module Breakout](img/SFP_Module_Breakout.jpg)
+
+One trivial use is an [SFP Loopback](https://www.fs.com/products/109371.html):
+
+![SFP Module Breakout as Loopback](img/SFP_Module_Breakout_as_Loopback.jpg)
+
 
 
 

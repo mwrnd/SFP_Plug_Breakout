@@ -31,7 +31,9 @@ Differential pair parameters were calculated based on a **board thickness of 1.0
 
 ![SFP Plug Module Breakout Schematic](img/SFP_Plug_Module_Breakout_Schematic.png)
 
-The 0.1" Header is designed to accept jumpers for the **TX_FAULT**, **RX_LOSS**, **TX_DISABLE**, and optionally **Rate-Select** signals. **TX_FAULT**, **RX_LOSS**, and **TX_DISABLE** jumpers need to be mounted for normal operation.
+The 0.1" Header is designed to accept jumpers for the **TX_FAULT**, **RX_LOS**, **TX_DISABLE**, and optionally **Rate-Select** signals.
+
+**TX_FAULT**, **RX_LOS**, and **TX_DISABLE** jumpers need to be mounted for normal operation. These signals are pulled up to Vcc with 10k resistors but are Active-Low.
 
 
 
